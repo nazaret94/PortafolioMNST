@@ -1,34 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 html{
     margin: 0;
-    padding: 0;
-    background-color: aqua;
+    padding: 0;                                                                                      
+}
+body{
+    height: 100vh;       
+    background: linear-gradient(168deg, #ffffff,#00a3d7);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 header{
-    display: flex;
-    justify-content: space-around;
-    background-color: bisque;
-    padding: 5%;
-    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    
+    padding: 2%;
+    border-radius: 20px;
+    background-image: url(img/papel2.jpg);
+    background-size: 100%;
+    
 }
 #menu-hamburguesa{
-    display: flex;
     cursor: pointer;
-    font-size: 24px;
-    justify-content: space-between;
-    /*display: flex;
-    align-items: center;*/
+    font-size: 50px;
+    color: white;
+}
+
+#contenedor-foto-titulos{
+    display: flex;
+    flex-direction: row;
+    padding:1%;
+    justify-content: space-around;
 }
 #menu{
 display: none;
 flex-direction: column;
-background-color: rgba(240, 248, 255, 0.975);
-padding: 20px;
+background: -webkit-linear-gradient(90deg,#01c7fc,#00a1d8,#0056d6);
+background: linear-gradient(90deg,#01c7fc,#00a1d8,#0056d6); 
 position:absolute;
-top: 15px;
-box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.1);
+top: 50px;
+box-shadow: 1px 5px 10px rgb(111, 159, 242);
 border-radius: 5px;
 z-index: 1000;
-width:200px;
+width:400px;
 }
 #menu a{
     font-size: 20px;
@@ -37,16 +52,37 @@ width:200px;
     text-decoration: none;
 }
 #menu a:hover{
-    background-color: black;
+    background-color: rgba(77, 26, 205, 0.455);
     color:aliceblue
 }
 #menu.show{
     display: flex;
 }
 #foto{
-    background-color: antiquewhite;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     object-fit: cover;
+}
+#titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+}
+#titulos h1{
+    font-family: "Dancing Script", cursive;   
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color:white;
+}
+#titulos h2{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
 }

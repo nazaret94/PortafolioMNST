@@ -57,30 +57,40 @@
 
     <div id="educación">
         <h1>Educación</h1>
-        <div id="tarjetas">
-            <div id="tarjeta">
-            <h2>UNIVERSIDAD AUTÓNOMA DE MÉXICO</h2>
-            <h3>FACULTAD DE INGENIERÍA</h3>
-            <h4>Ingeniería en Computación</h4>
-            <img src="/img/escudo_fi_color.png" alt="">
-        </div>
-
-        <div id="tarjeta">
-            <h2>UNIVERSIDAD AUTÓNOMA DE MÉXICO</h2>
-            <h3>FACULTAD DE INGENIERÍA</h3>
+        <div class="tarjetas">
+            <div class="tarjeta">
+              <div class="tarjeta-front">
+                <h2>UNIVERSIDAD AUTÓNOMA DE MÉXICO</h2>
+                <h3>FACULTAD DE INGENIERÍA</h3>
+              </div>
+              <div class="tarjeta-back">
+                <h4>Ingeniería en Computación</h4>
+                <img src="/img/escudo_fi_color.png" alt="">
+              </div>
+            </div>
+            <div class="tarjeta">
+                <div class="tarjeta-front">
+                  <h2>UNIVERSIDAD AUTÓNOMA DE MÉXICO</h2>
             <h3>DIVISIÓN DE INGENIERÍA ELÉCTRICA DEPARTAMENTO DE COMPUTACIÓN</h4>
-            <h4>Diplomado en "Diseño y Programación de Videojuegos</h5>
-            <img src="/img/diplomado.png" alt="">
-        </div>
-
-        <div id="tarjeta">
-            <h2>LABORATORIO DE INVESTIGACIÓN Y DESARROLLO DE APLICACIONES INTERACTIVAS PARA LA NEURO-REHABILITACIÓN</h2>
-            <h4>Servicio Social: Desarrollo de Videojuegos en Unity para pacientes con daño neurológico.</h3>
-                <img src="/img/ifc_logo.png" alt="">
-        </div>
-        </div>
-        
-
+                </div>
+                <div class="tarjeta-back">
+                  <h4>Diplomado en:</h4> 
+                  <h4>Diseño y Programación de Videojuegos</h5>
+                    <img src="/img/diplomado.png" alt="">
+                </div>
+              </div>
+              <div class="tarjeta">
+                <div class="tarjeta-front">
+                   <h2>Instituto de Fisiología Celular, UNAM</h2>
+                  <h3>LABORATORIO DE INVESTIGACIÓN Y DESARROLLO DE APLICACIONES INTERACTIVAS PARA LA NEURO-REHABILITACIÓN</h3>
+                </div>
+                <div class="tarjeta-back">
+                  <h4>Servicio Social:</h4>
+                  <h4>Desarrollo de Videojuegos en Unity para pacientes con daño neurológico.</h3>
+                    <img src="/img/ifc_logo.png" alt="">
+                </div>
+              </div>
+          </div>
     </div>
 
     <div id="experiencia">
@@ -165,7 +175,20 @@
     </div>
     <div id="proyectos">
         <h1>Proyectos</h1>
-
+        <div class="card-container">
+            <div class="card">
+              <div class="card-front">
+                <!-- Contenido del frente de la tarjeta -->
+                <h2>Frente</h2>
+                <p>Contenido en el frente.</p>
+              </div>
+              <div class="card-back">
+                <!-- Contenido del reverso de la tarjeta -->
+                <h2>Reverso</h2>
+                <p>Contenido en el reverso.</p>
+              </div>
+            </div>
+          </div>
     </div>
 
     <footer>

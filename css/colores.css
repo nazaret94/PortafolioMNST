@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+/*Paleta de colores */
+:root{
+    --davys-gray: #4f494eff;
+    --davys-gray-2: #57525bff;
+    --davys-gray-3: #5a5a64ff;
+    --dim-gray: #5e606aff;
+    --dim-gray-2: #5e646cff;
+
+    --rose-quartz: #a0989fff;
+    --french-gray: #b1acb4ff;
+    --french-gray-2: #bfbfc5ff;
+    --french-gray-3: #c9cacfff;
+    --french-gray-4: #cbced2ff;
+
+    --orchid: #d463caff;
+    --lavender-floral: #b87de3ff;
+    --tropical-indigo: #9795eeff;
+    --jordy-blue: #9fb1f9ff;
+    --jordy-blue-2: #9ec8ffff;
+
+    --gradient-top: linear-gradient(0deg, #d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+    --gradient-right: linear-gradient(90deg, #d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+    --gradient-bottom: linear-gradient(180deg, #d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+    --gradient-left: linear-gradient(270deg, #d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+    --gradient-top-right: linear-gradient(45deg, #d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+    --gradient-bottom-right: linear-gradient(135deg, #d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+    --gradient-top-left: linear-gradient(225deg, #d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+    --gradient-bottom-left: linear-gradient(315deg, #d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+    --gradient-radial: radial-gradient(#d463caff, #b87de3ff, #9795eeff, #9fb1f9ff, #9ec8ffff);
+}
+h1{
+    /*font-family: "Amatic SC", sans-serif;*/
+    font-family: "Dancing Script", cursive; 
+    font-size: 70px;
+    color: var(--lavender-floral);
+    text-align: center;
+}
+
+p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: var(--davys-gray-2);
+    text-wrap: balance;
+    word-spacing:10px;
+}
+/*
+h2{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 30px;
+}
+h3{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 25px;
+}
+h4{
+    font-family: "Quicksand", sans-serif;
+}*/

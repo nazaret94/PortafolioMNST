@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Mariana</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sobreMi.css">
+    <link rel="stylesheet" href="/css/educación.css">
+    <link rel="stylesheet" href="/css/experiencia.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="/css/habilidades.css">
+    <link rel="stylesheet" href="/css/proyectos.css">
+    
+    
+    
+    
+    
    <script></script>
 </head>
 <body>
+
     <header>
         <div id="menu-hamburguesa">
             <span id="hamburguesa">&#9776;</span>
@@ -16,7 +28,7 @@
                 <h2>Ingeniera en Computación</h2>
             </div>
             <nav id="menu">
-                <a href="#sobreMi">Sobre Mi</a>
+                <a href="#mariana">Sobre Mi</a>
                 <a href="#educación">Educación</a>
                 <a href="#experiencia">Experiencia</a>
                 <a href="#contacto">Contacto</a>
@@ -25,37 +37,49 @@
             </nav>      
         </div>
     </header>
-    <div id="contenedor-foto"> 
-        <img src="/img/MARY.JPG" alt="Foto de Mariana Nazaret Solis Torres" id="foto">      
+    <div id="mariana"> 
+        <div id="contenedor-foto"> 
+            <img src="/img/MARY.JPG" alt="Foto de Mariana Nazaret Solis Torres" id="foto">      
+        </div>
+
+        <div id="sobreMi">
+            <h1>Sobre Mi</h1>
+            <p>
+                Hola, soy Mariana, Ingeniera en Computación titulada con especialización en Ingeniería de Software.
+                Cuento con experiencia en administración de redes, desarrollo de videojuegos y programación web. 
+            </p>
+            <p>    
+                Mi objetivo profesional es seguir ampliando mis conocimientos y adquirir más experiencia laboral,
+                por lo que actualmente estoy tomando cursos para desarrollar nuevas habilidades técnicas. 
+            </p>
+        </div>
     </div>
-    <div id="sobreMi">
-        <h1>Sobre Mi</h1>
-        <p>
-            Hola, soy Mariana, Ingeniera en Computación titulada con especialización en Ingeniería de Software.
-            Cuento con experiencia en administración de redes, desarrollo de videojuegos y programación web. 
-            Mi objetivo profesional es seguir ampliando mis conocimientos y adquirir más experiencia laboral,
-            por lo que actualmente estoy tomando cursos para desarrollar nuevas habilidades técnicas.
-            Además, valoro profundamente el equilibrio en mi vida, considerando que la estabilidad en todos 
-            los aspectos es fundamental. Por ello, me enfoco en mantener una buena salud física a través del
-            ejercicio regular y una alimentación adecuada, así como en trabajar en mi bienestar emocional. </p>
-    </div>
+
     <div id="educación">
         <h1>Educación</h1>
-        <div>
+        <div id="tarjetas">
+            <div id="tarjeta">
             <h2>UNIVERSIDAD AUTÓNOMA DE MÉXICO</h2>
             <h3>FACULTAD DE INGENIERÍA</h3>
             <h4>Ingeniería en Computación</h4>
+            <img src="/img/escudo_fi_color.png" alt="">
         </div>
-        <div>
+
+        <div id="tarjeta">
             <h2>UNIVERSIDAD AUTÓNOMA DE MÉXICO</h2>
             <h3>FACULTAD DE INGENIERÍA</h3>
             <h3>DIVISIÓN DE INGENIERÍA ELÉCTRICA DEPARTAMENTO DE COMPUTACIÓN</h4>
             <h4>Diplomado en "Diseño y Programación de Videojuegos</h5>
+            <img src="/img/diplomado.png" alt="">
         </div>
-        <div>
+
+        <div id="tarjeta">
             <h2>LABORATORIO DE INVESTIGACIÓN Y DESARROLLO DE APLICACIONES INTERACTIVAS PARA LA NEURO-REHABILITACIÓN</h2>
             <h4>Servicio Social: Desarrollo de Videojuegos en Unity para pacientes con daño neurológico.</h3>
+                <img src="/img/ifc_logo.png" alt="">
         </div>
+        </div>
+        
 
     </div>
 
@@ -88,9 +112,6 @@
 
     <div id="habilidades" class="even">
         <h1>Habilidades</h1>
-        <p>Unity #C git github html css JavaScript Spring Boot java Bootstrap comandos cisco ingles A1
-        </p>
-        <hr />
         <div>
             <div>
                 <img src="/img/unity.png" />
@@ -121,8 +142,24 @@
                 <span class="tooltip">SpringBoot</span>
             </div>
             <div>
+                <img src="/img/java.png" />
+                <span class="tooltip">Java</span>
+            </div>
+            <div>
+                <img src="/img/bootstrap.png" />
+                <span class="tooltip">Bootstrap</span>
+            </div>
+            <div>
+                <img src="/img/sql.png" />
+                <span class="tooltip">Conocimientos basicos</span>
+            </div>
+            <div>
+                <img src="/img/cisco.png" />
+                <span class="tooltip">Comandos basicos de cisco</span>
+            </div>
+            <div>
                 <img src="/img/paper-size.png" />
-                <span class="tooltip">Unity</span>
+                <span class="tooltip">Ingles: A1</span>
             </div>
         </div>
     </div>

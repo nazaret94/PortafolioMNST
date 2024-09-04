@@ -4,3 +4,9 @@
     border-radius: 20px;
     border: 4px solid var(--jordy-blue-2);
 }
+#contenedorContacto{
+    text-align: center;
+    font-family: "Dancing Script", cursive; 
+    font-size: 27px;
+    color: var(--orchid);
+}

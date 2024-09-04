@@ -4,3 +4,38 @@
     border-radius: 20px;
     border: 4px solid var(--orchid);
 }
+#tarjetas-experincia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tarjeta-experincia{
+    width: 40%;
+    padding: 10px;
+}
+.tarjeta-experincia h2{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: var(--davys-gray);
+}
+.tarjeta-experincia h3{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: var(--davys-gray-2);
+}
+.tarjeta-experincia p{
+    text-align: justify;
+    color: var(--davys-gray-3);
+}
+#imgTorre{
+    text-align: center;
+}
+#imgPalacio{
+    text-align: center;
+}
+#imgTorre img{
+    width: 100px;
+}
+#imgPalacio img{
+    width: 200px;
+}
